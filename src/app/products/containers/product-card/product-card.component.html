@@ -1,0 +1,17 @@
+<div class="product-card">
+  <mat-card style="min-height: 250px">
+
+    <div class="mat-h3">{{card.name}}</div>
+    <img mat-card-image src="../../../../assets/bigImages/sałatka_card.jpg" alt="Photo of a Shiba Inu">
+
+    <mat-card-content>
+      <div>Składniki</div>
+      <div fxLayout="row wrap" fxLayoutGap=".3rem">
+        <small *ngFor="let item of card.ingredients; let last = last">
+          <span class="mat-list-item">{{item.name}}</span>
+          <span *ngIf="!last">,</span>
+        </small>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

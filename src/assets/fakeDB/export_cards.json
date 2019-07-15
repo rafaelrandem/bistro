@@ -1,0 +1,25 @@
+[
+	{
+		"id": 1,
+		"name": "RafaeL",
+		"ingredients": []
+	},
+	{
+		"id": 2,
+		"name": "Magdalena",
+		"ingredients": []
+	},
+	{
+		"id": 3,
+		"name": "Martyna",
+		"ingredients": []
+	},
+	{
+		"name": "Jurek",
+		"id": 8
+	},
+	{
+		"name": "Randem",
+		"id": 7
+	}
+]

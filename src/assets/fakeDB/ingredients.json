@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"name": "sałata"
+	},
+	{
+		"id": 2,
+		"name": "ogórek"
+	},
+	{
+		"id": 3,
+		"name": "pomidor"
+	},
+	{
+		"id": 4,
+		"name": "papryka"
+	},
+	{
+		"id": 5,
+		"name": "kukurydza"
+	},
+	{
+		"id": 6,
+		"name": "oliwka"
+	},
+	{
+		"id": 7,
+		"name": "por"
+	},
+	{
+		"id": 8,
+		"name": "cebula dymka"
+	},
+	{
+		"name": "kapusta biała",
+		"id": 9
+	},
+	{
+		"name": "rzodkiewka",
+		"id": 10
+	},
+	{
+		"name": "ser feta",
+		"id": 11
+	},
+	{
+		"name": "ogórek kiszony",
+		"id": 12
+	}
+]

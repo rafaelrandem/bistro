@@ -1,0 +1,166 @@
+[
+	{
+		"id": 1,
+		"name": "Wiosenna",
+		"ingredients": [
+			{
+				"id": 1,
+				"name": "sałata"
+			},
+			{
+				"id": 7,
+				"name": "por"
+			},
+			{
+				"id": 5,
+				"name": "kukurydza"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Proste Smaki",
+		"ingredients": [
+			{
+				"id": 1,
+				"name": "sałata"
+			},
+			{
+				"id": 2,
+				"name": "ogórek"
+			},
+			{
+				"name": "rzodkiewka",
+				"id": 10
+			},
+			{
+				"name": "ser feta",
+				"id": 11
+			},
+			{
+				"id": 8,
+				"name": "cebula dymka"
+			},
+			{
+				"id": 5,
+				"name": "kukurydza"
+			},
+			{
+				"id": 7,
+				"name": "por"
+			},
+			{
+				"name": "ogórek kiszony",
+				"id": 12
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Pełny Zestaw",
+		"ingredients": [
+			{
+				"id": 1,
+				"name": "sałata"
+			},
+			{
+				"id": 3,
+				"name": "pomidor"
+			},
+			{
+				"id": 5,
+				"name": "kukurydza"
+			},
+			{
+				"id": 7,
+				"name": "por"
+			},
+			{
+				"name": "bakłażan",
+				"id": 9
+			},
+			{
+				"id": 2,
+				"name": "ogórek"
+			},
+			{
+				"id": 4,
+				"name": "papryka"
+			},
+			{
+				"id": 6,
+				"name": "oliwka"
+			},
+			{
+				"id": 8,
+				"name": "cebula dymka"
+			}
+		]
+	},
+	{
+		"name": "Egzotyczna",
+		"ingredients": [
+			{
+				"id": 4,
+				"name": "papryka"
+			},
+			{
+				"name": "ogórek kiszony",
+				"id": 12
+			},
+			{
+				"name": "rzodkiewka",
+				"id": 10
+			},
+			{
+				"name": "kapusta biała",
+				"id": 9
+			},
+			{
+				"name": "ser feta",
+				"id": 11
+			},
+			{
+				"id": 2,
+				"name": "ogórek"
+			}
+		],
+		"id": 4
+	},
+	{
+		"name": "Babuni",
+		"ingredients": [
+			{
+				"id": 1,
+				"name": "sałata"
+			},
+			{
+				"id": 8,
+				"name": "cebula dymka"
+			},
+			{
+				"name": "rzodkiewka",
+				"id": 10
+			}
+		],
+		"id": 5
+	},
+	{
+		"name": "Tradycyjna",
+		"ingredients": [
+			{
+				"id": 7,
+				"name": "por"
+			},
+			{
+				"name": "kapusta biała",
+				"id": 9
+			},
+			{
+				"name": "ser feta",
+				"id": 11
+			}
+		],
+		"id": 6
+	}
+]

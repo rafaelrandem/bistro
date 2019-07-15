@@ -1,4 +1,6 @@
-# NGRX
+# NGRX Demo Bistro
+
+[DEMO](http://bistro.rl.org.pl/) is [here](http://bistro.rl.org.pl/)!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 

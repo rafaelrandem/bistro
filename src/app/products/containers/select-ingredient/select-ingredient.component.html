@@ -1,0 +1,17 @@
+<div fxLayout="row wrap" fxLayoutAlign="">
+  <div *ngFor="let ing of ingredients" class="tests" fxFlex="25" fxFlex.lt-sm="100" fxFlex.lt-md="50" fxFlex.lt-xl="33">
+    <button #select (click)="addIngredient(ing)"
+            mat-raised-button
+            [color]="selectedColor(ing)"
+            style="margin: 2px;"  class="test" fxFlex="100">
+      <div fxLayout="row" fxLayoutAlign="space-between center">
+        <div>{{ing.name}}</div>
+        <mat-icon *ngIf="select.color!=='default'">check</mat-icon>
+      </div>
+    </button>
+  </div>
+</div>
+
+<!--<div *ngFor="let item of selected">-->
+<!--  {{item | json}}-->
+<!--</div>-->

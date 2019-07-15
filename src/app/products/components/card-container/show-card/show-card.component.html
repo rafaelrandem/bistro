@@ -1,0 +1,48 @@
+<div fxLayout="column" fxLayoutAlign="center center" style="padding: 1rem">
+
+  <div fxLayout="row" fxLayoutGap="1rem">
+    <button mat-icon-button color="primary" (click)="goBack()">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <button mat-icon-button color="accent" (click)="openDialog()">
+      <mat-icon>edit</mat-icon>
+    </button>
+    <button mat-icon-button color="warn" (click)="deleteCard()">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </div>
+
+
+  <div fxLayout="row" fxLayout.lt-sm="column" >
+
+    <div style="padding: 1rem" fxFlex="250px" fxFlex.lt-sm="grow"  fxFlex.gt-sm="grow">
+      <product-card [card]="card$ | async"></product-card>
+    </div>
+
+    <div style="padding: 1rem 1rem 1rem 0"  class="tests" fxFlex="60vw">
+        <select-ingredient [ingredients]="ingredients$ | async" [selected]="_dialogData.ingredients" (_selected)="updateIngredients($event)" ></select-ingredient>
+
+    <div fxLayout="row" fxLayoutAlign="end">
+      <button mat-icon-button color="accent" routerLink="/cards/ing" >
+        <mat-icon>edit</mat-icon>
+      </button>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div hidden class="test">
+    <div class="toppings-container">
+      <div *ngFor="let topping of ingredients$ | async">
+        <div>{{topping.name}}</div>
+      </div>
+    </div>
+
+
+    <small>
+      {{card$ | async | json}}
+      Router param: {{(routeParam$ | async)["cardId"] }}
+    </small>
+  </div>
+</div>
